@@ -1,0 +1,8 @@
+# Get temperature in Celsius from the user
+tempCelsius = float(input("Enter temperature in Celsius: "))
+
+# Convert Celsius to Fahrenheit using the formula
+tempFahrenheit = (9/5) * tempCelsius + 32
+
+# Display the result
+print(f"{tempCelsius} degrees Celsius is equal to {tempFahrenheit} degrees Fahrenheit.")
